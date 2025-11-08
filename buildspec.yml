@@ -9,7 +9,7 @@ phases:
     commands:
       - npm install
   build:
-    commands:
+    commands:     
       - ng build -c production
       - echo "Build completed."
     finally:
